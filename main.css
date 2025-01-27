@@ -1,0 +1,505 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+aside, nav, footer, header, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+body, html {
+    height: 100%;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300;1,75..100,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+.container {
+
+    width: 1265px;
+    height: 154px;
+    background-color: #0c3f7e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.bloc1{
+   color: rgb(211, 197, 197);
+   display: flex;
+   font-family: "montserrat", sans-serif;
+   font-size: 40px;
+   font-weight: 800;
+   
+}
+
+.bloc2 { 
+    gap: 40px;
+    display: flex;
+    color: #eee6e6;
+    font-size:  40px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 800;
+    padding-left: 100px;
+    list-style-type: none;
+}
+
+header{
+    border: 1px solid #ebe2e2;
+    position: fixed;
+    width: 1300px;
+    z-index: 99;
+}
+
+
+.html,body {
+    margin:0;
+   }
+   
+   /* MAIN */
+
+
+
+.main{
+    margin-top: 135px;
+}
+
+
+
+
+
+.main-contend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: #0c3f7e;
+max-width: 1265px;
+height: 801px;
+
+}
+
+
+ 
+
+
+.MMImage-Origin{
+   border-radius: 50%;
+  border-bottom:5px solid #f30a0a;
+width: 516px;
+height: 516px;
+margin-left: 130px;
+margin-top:40px ;
+}
+
+
+
+.main-text{
+
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0px;
+    margin-left: 55px;
+    color: #D9D9D9;
+    font-size: 64px;
+    max-width: 605px;
+    
+    text-transform: uppercase;
+    
+    }
+
+    
+    
+.main-text1{
+    font-family: "Montserrat", sans-serif;
+    color: #D9D9D9;
+    max-width: 605px;
+    height: 209px;
+    margin-top: 50px;
+    margin-left: 55px;
+    font-size: 36px;
+    align-items: center;
+    
+    font-weight: 400px;
+}
+    
+.cerh-btr{
+
+    color: #000000;
+    font-size:50px ;
+    margin-left: 55px;
+    background: #D9D9D9;
+    padding: 20px 70px;
+    border-radius: 65px;
+
+}
+.cerh-btr:hover{
+    background-color: #f30a0a;
+}
+
+
+ /* вторая секцыя */
+
+ 
+
+.iCan-Section {
+    padding: 135px 0px 650px 0px;
+    background-image:url(https://www.figma.com/file/DJPnaiyZ9wsHKhJDrb9yaY/image/608374450b8192d8b3f6171a16dbc23ffcca9c13);
+    background-size: 100%;
+    position: relative;
+    width: 1265px;
+    }
+
+.iCan-Title {
+  
+text-align: center;
+font-family: "Montserrat",sans-serif;
+font-size: 72px;
+font-weight: 800;
+position: absolute;
+top: 111px;
+ left: 500px; 
+
+}
+
+.size {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    background-color: #04244b;
+    top: 300px;
+    
+    border: 5px solid #74594c;
+}
+.block3 {
+    left: 857px;
+}
+.block2 {
+    left: 445.5px;
+    background-color: #b89079;
+    border: 5px solid #0e1616;
+}
+.block1 {
+    left: 44px;
+}
+.img{
+    padding-bottom: 36%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.text {
+    color: #eee6e6;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    line-height: 78.02px;
+    }
+
+    /*третья секцыя*/
+
+    .block{
+
+
+        background-color: #071e3a;
+    width: 1263px; 
+    height: 2300px; 
+}
+
+.main-kurs {
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    font-size: 79px;
+    font-weight: 800;
+    position: absolute;
+    top: 1650px;
+     left: 350px; 
+    color: #f3ebeb;
+
+   }
+
+
+
+.kontainer1 {
+   
+    position: absolute;
+    width: 560px;
+    height: 550px;
+    top: 1900px;
+    left:  37px;
+   display: flex;
+    gap: 116px;
+    color: #D9D9D9;
+    
+}
+.image_in_BOX {
+    width:560px ;
+    height:550px;
+    object-fit: cover;
+}
+.message-text {
+
+    
+    display: flex;
+    position: relative;
+    top: 123px;
+    flex-direction: column;
+    font-size: 78px;
+    line-height: 78.51px;
+    font-weight: 1000;
+    
+    }
+
+.tExt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 50px;
+    line-height: 42.19px;
+    font-size: 36px;
+    padding-right: 50px;
+    white-space: nowrap;
+}
+.kontainer2 {
+  
+    position: absolute;
+    width: 560px;
+    height: 550px;
+    left:  637px;
+    top: 2600px;
+    display: flex;
+    gap: 126px;
+    flex-direction: row-reverse;
+    color: #D9D9D9;
+}
+.kontainer3 {
+ 
+    position: absolute;
+    width: 560px;
+    height: 550px;
+    left: 37px;
+    top: 3279px;
+    display: flex;
+    gap: 126px;
+    color: #D9D9D9;
+}
+
+/*четвёртая секцыя*/
+
+.Block{
+width: 1263px;
+height: 1270px;
+background-color: #b89079;
+
+}
+
+.Text{
+display: flex;
+padding-top:100px;
+padding-left:  250px; 
+font-size:120px ;
+font-weight: 1000;
+color: #0f0b0b;
+
+}
+
+.window_to_fill {
+ 
+width: 800px;
+height: 900px;
+background-color: #d1c7c7;
+margin-left: 250px;
+margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.lable {
+    display: flex;
+    width: 630px;
+    justify-content: space-between;
+}
+.inputs {
+    width: 630px;
+    height: 100px;
+    background-color: #a99b8732;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 20px;
+    
+}
+.baton-size {
+    width: 266px;
+    height: 68px;
+    background-color: #a99b8732;
+    font-family: Montserrat ,sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    
+}
+
+/*пятая секцыя*/
+
+.fifth_section
+{
+
+padding: 135px 0px 150px 0px;
+background-image:url(https://www.figma.com/file/DJPnaiyZ9wsHKhJDrb9yaY/image/f4d8368f21dcf520c4acf394d42a992466a3d7f9);
+background-size: 100%;
+position: relative;
+width:1265px ;        
+
+}
+
+.contacts{
+
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    font-size: 82px;
+    font-weight: 800;
+    position: absolute;
+    top: 111px;
+     left: 450px; 
+    
+    }
+
+    .cardContainer {
+        display: flex;
+        justify-content: space-around;
+        gap: 58px;
+    }
+    
+    .contactCard {
+        display: flex;
+        width: 350px;
+        background: #07203F;
+        align-items: center;
+        flex-direction: column;
+        gap: 22px;
+        padding: 112px 25px 84px 25px;
+        margin-top:160px ;
+    }
+    
+    .contactCard:nth-child(even) {
+        background: #D9AA90;
+    }
+    
+    .contactCardTitle {
+        text-transform: uppercase;
+        font-family: "Montserrat", sans-serif;
+        font-size: 48px;
+        font-weight: 800;
+        text-align: center;
+        color: #dbcfcf;
+    }
+    
+    .contactBottom {
+        width: 299px;
+        padding: 14px 46px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+        justify-content: center;
+        background-color: #D9D9D9;
+        border-radius:40px ;
+    }
+    
+    .contactNumber {
+        display: flex;
+        font-size: 36px;
+    }
+
+    /*шестая секцыя*/
+
+    .cloc2  {
+
+        
+        gap: 40px;
+        display: flex;
+        color: rgb(226, 226, 235);
+        font-size:  40px;
+        font-family: "montserrat", sans-serif;
+        font-weight: 800;
+        padding-left: 100px;
+        list-style-type: none;
+        
+    }
+
+
+
+a{
+    color: #f0e9e9;
+}
+    
+
+
