@@ -119,20 +119,13 @@ header{
 
 
 
-.main{
-    margin-top: 135px;
-}
-
-
-
-
-
 .main-contend {
     display: flex;
 box-sizing: border-box;
 background-color: #0c3f7e;
 max-width: 1265px;
 height: 801px;
+   padding-top: 200px; 
 
 }
 
@@ -146,7 +139,7 @@ height: 801px;
 width: 516px;
 height: 516px;
 margin-left: 130px;
-margin-top:40px ;
+margin-top:10px ;
 }
 
 
