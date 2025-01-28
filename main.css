@@ -129,8 +129,7 @@ header{
 
 .main-contend {
     display: flex;
-    justify-content: center;
-    align-items: center;
+box-sizing: border-box;
 background-color: #0c3f7e;
 max-width: 1265px;
 height: 801px;
